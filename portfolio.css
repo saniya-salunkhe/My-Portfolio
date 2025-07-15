@@ -28,8 +28,16 @@
 
             #about{
                 height: auto;
-                width: 40%;
+                width: 60%;
                 margin-bottom: 20px;
+                margin-left: 22%;
+                border-radius: 100px;
+                box-shadow: 25px 25px 25px rgb(200, 207, 210);
+            }
+
+            #Achievement{
+                height: auto;
+                width: 40%;
                 margin-left: 30%;
                 border-radius: 100px;
                 box-shadow: 25px 25px 25px rgb(200, 207, 210);
@@ -103,7 +111,7 @@
             
 
             #aboutT{
-                margin-top: 11%; 
+                margin-top: 19%; 
                 color: rgb(244, 228, 49); 
                 font-weight: 1000; 
                 font-size: 40px;
@@ -121,6 +129,17 @@
             }
 
             #skillsData{
+                color: rgb(228, 228, 226);
+            }
+
+            #AchievementT{
+                margin-top: 21%; 
+                color: rgb(244, 228, 49); 
+                font-weight: 1000;
+                font-size: 40px;
+            }
+
+            #AchievementData{
                 color: rgb(228, 228, 226);
             }
 
