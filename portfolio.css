@@ -1,4 +1,4 @@
-*{
+            *{
                 margin: 0;
                 font-family: Arial;
                 border: border-box;
@@ -159,3 +159,82 @@
                 margin-top: 35px;
                 height: 25px;
             }
+
+@media (max-width: 992px) {
+    
+    #firstName, #lastName {
+        font-size: 45px;
+    }
+    #Profession {
+        font-size: 24px;
+    }
+
+    #Introduction .col-sm-6, #Introduction .col-sm-5 {
+        text-align: center;
+    }
+
+    #Pimage {
+        width: 80%;
+        height: auto;
+    }
+
+    #about, #skills, #Achievement, #projects {
+        width: 80%;
+        margin: 40px auto;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    .startHead {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #firstName, #lastName {
+        font-size: 35px;
+    }
+    #Profession {
+        font-size: 20px;
+    }
+
+    #Pimage {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    #about, #skills, #Achievement, #projects {
+        width: 95%;
+        margin: 20px auto;
+    }
+
+    .contact {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    #firstName, #lastName {
+        font-size: 28px;
+    }
+    #Profession {
+        font-size: 16px;
+    }
+
+    .container {
+        padding: 15px;
+        box-shadow: none;
+    }
+
+    #aboutT, #skillsT, #AchievementT, #projectsT {
+        font-size: 28px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    #aboutData, #skillsData, #AchievementData, #projectsData {
+        text-align: center;
+    }
+}
