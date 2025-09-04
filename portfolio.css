@@ -1,164 +1,165 @@
-            *{
-                margin: 0;
-                font-family: Arial;
-                border: border-box;
-            }
+*{
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
 
-            .startHead{
-                display: flex;
-                justify-content: space-evenly;
-                margin-top: 20px;
-                color: rgb(228, 228, 226);
-            }
+.startHead{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    color: rgb(228, 228, 226);
+}
 
-            #menu{
-                text-decoration: none;
-                color: rgb(228, 228, 226);
-            }
+#menu{
+    text-decoration: none;
+    color: rgb(228, 228, 226);
+}
 
-            .container{
-                font-weight: 1000;
-                height: auto;
-                width: 70%; 
-                border-radius: 10px;
-                margin-top: 150px;
-                margin-left: 220px;
-                box-shadow: 25px 25px 25px rgb(211, 219, 222);
-            }
+.container{
+    font-weight: 1000;
+    height: auto;
+    width: 70%; 
+    border-radius: 10px;
+    margin-top: 150px;
+    margin-left: 220px;
+    box-shadow: 25px 25px 25px rgb(211, 219, 222);
+}
 
-            #about{
-                height: auto;
-                width: 60%;
-                margin-bottom: 20px;
-                margin-left: 22%;
-                border-radius: 100px;
-                box-shadow: 25px 25px 25px rgb(200, 207, 210);
-            }
+#about{
+    height: auto;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-left: 22%;
+    border-radius: 100px;
+    box-shadow: 25px 25px 25px rgb(200, 207, 210);
+}
 
-            #Achievement{
-                height: auto;
-                width: 40%;
-                margin-left: 30%;
-                border-radius: 100px;
-                box-shadow: 25px 25px 25px rgb(200, 207, 210);
-            }
+#Achievement{
+    height: auto;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 100px;
+    box-shadow: 25px 25px 25px rgb(200, 207, 210);
+}
 
-            #skills{
-                height: auto;
-                width: 40%;
-                margin-left: 30%;
-                border-radius: 100px;
-                box-shadow: 25px 25px 25px rgb(200, 207, 210);
-            }
+#skills{
+    height: auto;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 100px;
+    box-shadow: 25px 25px 25px rgb(200, 207, 210);
+}
 
-            #projects{
-                height: auto;
-                width: 40%;
-                margin-left: 30%;
-                border-radius: 100px;
-                box-shadow: 25px 25px 25px rgb(200, 207, 210);
-            }
+#projects{
+    height: auto;
+    width: 40%;
+    margin-left: 30%;
+    border-radius: 100px;
+    box-shadow: 25px 25px 25px rgb(200, 207, 210);
+}
 
-            .contact{
-                margin-top:9%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                color: rgb(228, 228, 226);
-            }
+.contact{
+    margin-top:9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(228, 228, 226);
+}
 
-            @media only screen and (max-width: 768px) {
-                 body{
-                    width: 100%;
-                }
-            }
+@media only screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+}
 
-            #firstName{
-                color: rgb(244, 228, 49);
-                text-shadow: 2px 2px rgb(228, 228, 226);
-                font-size: 60px;
-                font-style: italic;
-            }
+#firstName{
+    color: rgb(244, 228, 49);
+    text-shadow: 2px 2px rgb(228, 228, 226);
+    font-size: 60px;
+    font-style: italic;
+}
 
-            #lastName{
-                font-size: 60px;
-                color: rgb(244, 228, 49);
-                text-shadow: 2px 2px rgb(228, 228, 226);
-                font-style: italic;
-            }
+#lastName{
+    font-size: 60px;
+    color: rgb(244, 228, 49);
+    text-shadow: 2px 2px rgb(228, 228, 226);
+    font-style: italic;
+}
 
-            #Profession{
-                font-size: 30px;
-                color: rgb(228, 228, 226);
-            }
+#Profession{
+    font-size: 30px;
+    color: rgb(228, 228, 226);
+}
 
-            #intro{
-                margin-top: 9px;
-            }
+#intro{
+    margin-top: 9px;
+}
 
-            #Pimage{
-                border-radius: 20px;
-            }
+#Pimage{
+    border-radius: 20px;
+}
 
-            .bbt{
-                margin-top: 3%;
-            }
+.bbt{
+    margin-top: 3%;
+}
             
-            button:hover {
-                background-color: rgb(9, 139, 246); 
-                transition: background-color 0.5s ease; 
-            }
+button:hover {
+    background-color: rgb(9, 139, 246); 
+    transition: background-color 0.5s ease; 
+}
             
 
-            #aboutT{
-                margin-top: 19%; 
-                color: rgb(244, 228, 49); 
-                font-weight: 1000; 
-                font-size: 40px;
-            }
+#aboutT{
+    margin-top: 19%; 
+    color: rgb(244, 228, 49); 
+    font-weight: 1000; 
+    font-size: 40px;
+}
 
-            #aboutData{
-                color: rgb(228, 228, 226);
-            }
+#aboutData{
+    color: rgb(228, 228, 226);
+}
 
-            #skillsT{
-                margin-top: 19%;
-                color: rgb(244, 228, 49); 
-                font-weight: 1000; 
-                font-size: 40px;
-            }
+#skillsT{
+    margin-top: 19%;
+    color: rgb(244, 228, 49); 
+    font-weight: 1000; 
+    font-size: 40px;
+}
 
-            #skillsData{
-                color: rgb(228, 228, 226);
-            }
+#skillsData{
+    color: rgb(228, 228, 226);
+}
 
-            #AchievementT{
-                margin-top: 21%; 
-                color: rgb(244, 228, 49); 
-                font-weight: 1000;
-                font-size: 40px;
-            }
+#AchievementT{
+    margin-top: 21%; 
+    color: rgb(244, 228, 49); 
+    font-weight: 1000;
+    font-size: 40px;
+}
 
-            #AchievementData{
-                color: rgb(228, 228, 226);
-            }
+#AchievementData{
+    color: rgb(228, 228, 226);
+}
 
-            #projectsT{
-                margin-top: 7.5%; 
-                color: rgb(244, 228, 49); 
-                font-weight: 1000;
-                font-size: 40px;
-            }
+#projectsT{
+    margin-top: 7.5%; 
+    color: rgb(244, 228, 49); 
+    font-weight: 1000;
+    font-size: 40px;
+}
 
-            #projectsData{
-                color: rgb(228, 228, 226);
-            }
-            footer{
-                background-color: rgba(128, 128, 126, 0.587);
-                color: rgb(227, 227, 224);
-                margin-top: 35px;
-                height: 25px;
-            }
+#projectsData{
+    color: rgb(228, 228, 226);
+}
+
+footer{
+    background-color: rgba(128, 128, 126, 0.587);
+    color: rgb(227, 227, 224);
+    margin-top: 35px;
+    height: 25px;
+}
 
 @media (max-width: 992px) {
     
@@ -187,10 +188,19 @@
 @media (max-width: 768px) {
     
     .startHead {
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
+        flex-direction: row;         /* keep items in one row */
+        flex-wrap: nowrap;          /* prevent wrapping */
+        overflow-x: auto;           /* enable horizontal scroll */
+        white-space: nowrap;        /* keep items inline */
+        gap: 15px;                  /* spacing between links */
+        justify-content: flex-start; /* align left */
+        padding: 10px;
     }
+
+    .startHead p {
+        flex: 0 0 auto;  /* prevent shrinking */
+    }
+
 
     #firstName, #lastName {
         font-size: 35px;
@@ -237,4 +247,81 @@
     #aboutData, #skillsData, #AchievementData, #projectsData {
         text-align: center;
     }
+}
+
+/* Fade-in for sections */
+.container, .contact, footer {
+    opacity: 0;
+    transform: translateY(40px);
+    animation: fadeUp 1s ease forwards;
+}
+
+/* Stagger effect for each section */
+#about { animation-delay: 0.3s; }
+#skills { animation-delay: 0.6s; }
+#Achievement { animation-delay: 0.9s; }
+#projects { animation-delay: 1.2s; }
+.contact { animation-delay: 1.5s; }
+footer { animation-delay: 1.8s; }
+
+/* Keyframes */
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Smooth hover glow effect for nav menu */
+#menu {
+    position: relative;
+    transition: color 0.3s ease;
+}
+#menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: rgb(244, 228, 49);
+    transition: width 0.3s ease;
+}
+#menu:hover {
+    color: rgb(244, 228, 49);
+}
+#menu:hover::after {
+    width: 100%;
+}
+
+/* Image hover zoom */
+#Pimage {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+#Pimage:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(255,255,255,0.4);
+}
+
+/* Button / Link hover pulse */
+a.fa, .contact a {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+a.fa:hover, .contact a:hover {
+    transform: scale(1.2);
+    color: rgb(244, 228, 49);
+}
+
+/* Section title bounce animation */
+#aboutT, #skillsT, #AchievementT, #projectsT {
+    animation: bounceIn 1s ease;
+}
+@keyframes bounceIn {
+    0% { transform: scale(0.5); opacity: 0; }
+    60% { transform: scale(1.2); opacity: 1; }
+    100% { transform: scale(1); }
+}
+
+html {
+    scroll-behavior: smooth;
 }
